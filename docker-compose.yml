@@ -263,6 +263,22 @@ services:
       - ${TORRENT_BLACKHOLE_FOLDER}:/downloads/torrent/blackhole:z
       - ${USENET_BLACKHOLE_FOLDER}:/downloads/usenet/blackhole:z
 
+  overseerr:
+    image: lscr.io/linuxserver/overseerr:latest
+    container_name: overseerr
+    profiles: ["${PLEX_PROFILE}"]
+    network_mode: host # change to service:${VPN_PROVIDER} if you want in the same network as others
+    # sysctls: ["net.ipv6.conf.all.disable_ipv6=1"] # uncomment if changed to service:${VPN_PROVIDER} in network_mode
+    restart: unless-stopped
+    # Leave commented unless your machine is capable of Hardware acceleration - Intel / Nvidia
+    # More information at; https://github.com/linuxserver/docker-plex#hardware-acceleration
+    # devices: [ "/dev/dri:/dev/dri" ] # Intel QuickSync
+    env_file: [".env", "${CONFIG_FOLDER}/plex/.env"]
+    environment:
+      ["PGID=${GID}", "PUID=${UID}", "UMASK=${UMASK}", "TZ=${TIMEZONE}"]
+    volumes:
+      - ${CONFIG_FOLDER}/overseerr/config:/config:z
+
   plex:
     image: linuxserver/plex:${PLEX_VERSION}
     container_name: plex
@@ -446,17 +462,3 @@ services:
       - ${USENET_DOWNLOADS_FOLDER}:/downloads/usenet:z
       - ${USENET_DOWNLOADS_FOLDER}/completed/Series:/downloads/completed/Series:z
       - ${MEDIA_FOLDER}/Series:/series:z
-
-  overseerr:
-    image: lscr.io/linuxserver/overseerr:latest
-    container_name: overseerr
-    depends_on: ["${VPN_PROVIDER}"]
-    profiles: ["${OVERSEERR_PROFILE}"]
-    network_mode: service:${VPN_PROVIDER}
-    sysctls: ["net.ipv6.conf.all.disable_ipv6=1"]
-    restart: unless-stopped
-    env_file: [".env", "${CONFIG_FOLDER}/overseerr/.env"]
-    environment:
-      ["PGID=${GID}", "PUID=${UID}", "UMASK=${UMASK}", "TZ=${TIMEZONE}"]
-    volumes:
-      - ${CONFIG_FOLDER}/overseerr/config:/config:z
