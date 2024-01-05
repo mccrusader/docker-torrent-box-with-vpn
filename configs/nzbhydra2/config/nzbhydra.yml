@@ -1078,7 +1078,7 @@ main:
   keepHistoryForWeeks: null
   ssl: true
   sslKeyStore: "/certs/server.pfx"
-  sslKeyStorePassword: "0123456789"
+  sslKeyStorePassword: "976620"
   verifySsl: true
   disableSslLocally: false
   sniDisabledFor: []
