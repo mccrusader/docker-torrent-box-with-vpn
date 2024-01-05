@@ -19,7 +19,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /calibre/ {
@@ -29,7 +31,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /calibre_web/ {
@@ -39,7 +43,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /flaresolverr/ {
@@ -49,7 +55,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /jackett/ {
@@ -59,7 +67,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /lazylibrarian/ {
@@ -69,7 +79,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /lidarr/ {
@@ -79,7 +91,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /mylar/ {
@@ -89,7 +103,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /nzbget/ {
@@ -99,7 +115,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
     location /nzbhydra2/ {
@@ -109,7 +127,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
     location /prowlarr/ {
@@ -119,7 +139,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
     location /qbittorrent/ {
@@ -129,7 +151,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
     location /radarr/ {
@@ -139,7 +163,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /readarr/ {
@@ -149,7 +175,9 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 
   location /sonarr/ {
@@ -159,6 +187,8 @@ server {
     proxy_set_header  Host $host;
     proxy_set_header  X-Real-IP $remote_addr;
     proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
-    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
   }
 }
