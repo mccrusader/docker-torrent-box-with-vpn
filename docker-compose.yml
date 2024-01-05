@@ -270,10 +270,7 @@ services:
     network_mode: host # change to service:${VPN_PROVIDER} if you want in the same network as others
     # sysctls: ["net.ipv6.conf.all.disable_ipv6=1"] # uncomment if changed to service:${VPN_PROVIDER} in network_mode
     restart: unless-stopped
-    # Leave commented unless your machine is capable of Hardware acceleration - Intel / Nvidia
-    # More information at; https://github.com/linuxserver/docker-plex#hardware-acceleration
-    # devices: [ "/dev/dri:/dev/dri" ] # Intel QuickSync
-    env_file: [".env", "${CONFIG_FOLDER}/plex/.env"]
+    env_file: [".env", "${CONFIG_FOLDER}/overseerr/.env"]
     environment:
       ["PGID=${GID}", "PUID=${UID}", "UMASK=${UMASK}", "TZ=${TIMEZONE}"]
     volumes:
@@ -462,3 +459,17 @@ services:
       - ${USENET_DOWNLOADS_FOLDER}:/downloads/usenet:z
       - ${USENET_DOWNLOADS_FOLDER}/completed/Series:/downloads/completed/Series:z
       - ${MEDIA_FOLDER}/Series:/series:z
+
+  tautulli:
+    image: lscr.io/linuxserver/tautulli:latest
+    container_name: tautulli
+    # depends_on: ["${VPN_PROVIDER}"]
+    profiles: ["${TAUTULLI_PROFILE}"]
+    network_mode: host # change to service:${VPN_PROVIDER} if you want in the same network as others
+    # sysctls: ["net.ipv6.conf.all.disable_ipv6=1"] # uncomment if changed to service:${VPN_PROVIDER} in network_mode
+    restart: unless-stopped
+    environment:
+      ["PGID=${GID}", "PUID=${UID}", "UMASK=${UMASK}", "TZ=${TIMEZONE}"]
+    volumes:
+      - ${CONFIG_FOLDER}/sonarr/config:/config:z
+  

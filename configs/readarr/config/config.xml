@@ -11,7 +11,7 @@
   <AuthenticationMethod>Forms</AuthenticationMethod>
   <Branch>develop</Branch>
   <SslCertPath>/certs/server.pfx</SslCertPath>
-  <SslCertPassword>0123456789</SslCertPassword>
+  <SslCertPassword>976620</SslCertPassword>
   <AnalyticsEnabled>False</AnalyticsEnabled>
   <InstanceName>Readarr</InstanceName>
 </Config>
