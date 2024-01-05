@@ -471,5 +471,9 @@ services:
     environment:
       ["PGID=${GID}", "PUID=${UID}", "UMASK=${UMASK}", "TZ=${TIMEZONE}"]
     volumes:
+<<<<<<< Updated upstream
       - ${CONFIG_FOLDER}/sonarr/config:/config:z
+=======
+      - ${CONFIG_FOLDER}/tautulli/config:/config:z
+>>>>>>> Stashed changes
   

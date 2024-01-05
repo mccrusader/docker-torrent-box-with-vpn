@@ -41,6 +41,7 @@ All the apps are pre-configured and integrated. Therefore, with a few clicks you
 |    NordVPN    |        https://github.com/bubuntux/nordvpn         |                   VPN Gateway                   | disabled    |
 |    NZBGet     |    https://hub.docker.com/r/linuxserver/nzbget     |                Usenet Downloader                | enabled     |
 |   NZBHydra2   |   https://hub.docker.com/r/linuxserver/nzbhydra2   |         Meta Searcher for NZB indexers          | enabled     |
+|   Overseerr   |   https://hub.docker.com/r/linuxserver/overseerr   |                Request Manager                  | enabled     |
 |     Plex      |     https://hub.docker.com/r/linuxserver/plex      | Movie/TV Shows/Music Library Manager and Player | enabled     |
 |   ProtonVPN   |   https://github.com/tprasadtp/protonvpn-docker    |                   VPN Gateway                   | enabled     |
 |   Prowlarr    |   https://hub.docker.com/r/linuxserver/prowlarr    |               Query Proxy Server                | disabled    |
@@ -48,6 +49,7 @@ All the apps are pre-configured and integrated. Therefore, with a few clicks you
 |    Radarr     |    https://hub.docker.com/r/linuxserver/radarr     |             Movies Tracker/Manager              | enabled     |
 |    Readarr    |    https://hub.docker.com/r/linuxserver/readarr    |             eBooks Tracker/Manager              | enabled     |
 |    Sonarr     |    https://hub.docker.com/r/linuxserver/sonarr     |            TV Shows Tracker/Manager             | enabled     |
+|   Tautulli    |   https://hub.docker.com/r/linuxserver/tautulli    |                 Plex Analitics                  | enabled     |
 
 ---
 
@@ -244,12 +246,14 @@ MYLAR_PROFILE=disabled
 NGINX_PROFILE=enabled
 NZBGET_PROFILE=enabled
 NZBHYDRA2_PROFILE=enabled
+OVERSEERR_PROFILE=enabled
 PLEX_PROFILE=enabled
 PROTONVPN_PROFILE=enabled
 QBITTORRENT_PROFILE=enabled
 RADARR_PROFILE=enabled
 READARR_PROFILE=disabled
 SONARR_PROFILE=enabled
+TAUTULLI_PROFILE=enabled
 
 # NOT Default Apps' Profiles (enabled/disabled)
 NORDVPN_PROFILE=disabled
@@ -336,11 +340,13 @@ Not all apps are fully working through the reverse proxy (Nginx). I am still wor
 |    Lidarr    | http://localhost:8686/  |  lidarr  |    lidarr    |
 |    Nginx     |  http://localhost:80/   |    -     |      -       |
 |    Nzbget    | http://localhost:6789/  |  nzbget  |    nzbget    |
+|  Overseerr   | http://localhost:5055/  |    -     |      -       |
 |     Plex     | http://localhost:32400/ |    -     |      -       |
 |   Prowlarr   | http://localhost:9696/  | prowlarr |   prowlarr   |
 |    Radarr    | http://localhost:7878/  |  radarr  |    radarr    |
 |   Readarr    | http://localhost:8787/  | readarr  |   readarr    |
 |    Sonarr    | http://localhost:8989/  |  sonarr  |    sonarr    |
+|   Tautulli   | http://localhost:8282/  |    -     |      -       |
 
 ## **HTTPS**
 
