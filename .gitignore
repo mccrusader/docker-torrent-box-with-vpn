@@ -33,7 +33,7 @@ configs.backup.**
 backup/**
 
 # Plex and frinds
-media-box/configs/plex/config/**
-media-box/configs/plex/transcode/**
-media-box/configs/overseerr/config/**
-media-box/configs/tautulli/config/**
+plex/config/**
+plex/transcode/**
+overseerr/config/**
+tautulli/config/**

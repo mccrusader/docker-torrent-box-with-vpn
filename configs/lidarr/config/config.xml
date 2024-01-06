@@ -1,0 +1,18 @@
+<Config>
+  <BindAddress>*</BindAddress>
+  <Port>8686</Port>
+  <SslPort>6868</SslPort>
+  <EnableSsl>True</EnableSsl>
+  <LaunchBrowser>True</LaunchBrowser>
+  <ApiKey>3ca72cf337744d67937a56c3be3e8a71</ApiKey>
+  <AuthenticationMethod>Basic</AuthenticationMethod>
+  <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
+  <Branch>master</Branch>
+  <LogLevel>info</LogLevel>
+  <SslCertPath>/certs/server.pfx</SslCertPath>
+  <SslCertPassword>0123456789</SslCertPassword>
+  <UrlBase>/lidarr</UrlBase>
+  <InstanceName>Lidarr</InstanceName>
+  <UpdateMechanism>Docker</UpdateMechanism>
+  <AnalyticsEnabled>False</AnalyticsEnabled>
+</Config>

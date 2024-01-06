@@ -1,0 +1,395 @@
+2024-01-06 19:10:53 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:10:53 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:10:53 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:10:53 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:10:53 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:10:53 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:10:53 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:10:53 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:10:53 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:10:53 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:10:53 - DEBUG   :: MainThread : Altering database. Updating database table notify_log.
+2024-01-06 19:10:53 - DEBUG   :: MainThread : User 'Local' does not exist. Adding user.
+2024-01-06 19:10:53 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:10:53 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-06 19:10:53 - DEBUG   :: MainThread : Generating UUID...
+2024-01-06 19:10:53 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-06 19:10:53 - DEBUG   :: MainThread : Generating API key...
+2024-01-06 19:10:53 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-06 19:10:53 - DEBUG   :: MainThread : Generating JWT secret...
+2024-01-06 19:10:53 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2024-01-06 19:10:53 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2024-01-06 19:10:53 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2024-01-06 19:10:53 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:10:53 - INFO    :: MainThread : Comparing currently installed version with latest GitHub version
+2024-01-06 19:10:53 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/compare/v2.13.4...d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:10:53 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:10:53 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:10:53 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:10:53 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:10:54 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:10:55 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:10:55 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:10:55 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:10:55 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:10:56 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:00 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:00 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:00 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:00 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:00 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:00 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:00 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:00 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:00 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:00 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:00 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:00 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:00 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:00 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:00 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:00 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:00 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:00 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:01 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:02 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:02 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:02 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:02 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:03 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:07 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:07 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:07 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:07 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:07 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:07 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:07 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:07 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:07 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:07 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:07 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:07 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:07 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:07 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:07 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:07 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:07 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:07 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:08 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:08 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:08 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:08 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:08 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:09 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:15 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:15 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:15 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:15 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:15 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:15 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:15 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:15 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:15 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:15 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:15 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:15 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:15 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:15 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:15 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:15 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:15 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:15 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:16 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:17 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:17 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:17 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:17 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:18 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:22 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:22 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:22 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:22 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:22 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:22 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:22 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:22 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:22 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:22 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:22 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:22 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:22 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:22 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:22 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:22 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:22 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:22 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:23 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:24 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:24 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:24 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:24 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:25 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:30 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:30 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:30 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:30 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:30 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:30 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:30 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:30 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:30 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:30 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:30 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:30 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:30 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:30 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:30 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:30 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:30 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:30 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:31 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:31 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:31 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:31 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:31 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:32 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:37 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:37 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:37 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:37 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:37 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:37 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:37 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:37 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:37 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:37 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:37 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:37 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:37 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:37 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:37 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:37 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:37 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:37 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:38 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:39 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:39 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:39 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:39 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:40 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:44 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:44 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:44 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:44 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:44 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:44 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:44 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:44 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:44 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:44 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:44 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:44 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:44 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:44 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:44 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:44 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:44 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:44 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:45 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:45 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:45 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:45 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:45 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:46 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:50 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:50 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:50 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:50 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:50 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:50 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:50 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:50 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:50 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:50 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:50 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:50 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:50 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:50 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:50 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:50 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:50 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:50 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:51 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:52 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:52 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:52 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:52 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:11:53 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:11:58 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:11:58 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:11:58 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:11:58 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:11:58 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:11:58 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:11:58 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:11:58 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:11:58 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:11:58 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:11:58 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:11:58 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:11:58 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:11:58 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:11:58 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:11:58 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:11:58 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:11:58 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:58 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:11:59 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:11:59 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:11:59 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:11:59 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:12:00 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:12:06 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:12:06 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:12:06 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:12:06 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:12:06 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:12:06 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:12:06 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:12:06 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:12:06 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:12:06 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:12:06 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:12:06 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:12:06 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:12:06 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:12:06 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:12:06 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:12:06 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:12:06 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:07 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:07 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:12:07 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:12:07 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:12:07 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:12:08 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:12:14 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:12:14 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:12:14 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:12:14 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:12:14 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:12:14 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:12:14 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:12:14 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:12:14 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:12:14 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:12:14 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:12:14 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:12:14 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:12:14 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:12:14 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:12:14 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:12:14 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:12:14 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:14 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:15 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:12:15 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:12:15 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:12:15 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:12:16 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:12:21 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:12:21 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:12:21 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:12:21 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:12:21 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:12:21 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:12:21 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:12:21 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:12:21 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:12:21 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:12:21 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:12:21 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:12:21 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:12:21 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:12:21 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:12:21 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:12:21 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:12:21 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:22 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:23 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:12:23 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:12:23 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:12:23 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:12:24 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:12:28 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:12:28 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:12:28 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:12:28 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:12:28 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:12:28 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:12:28 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:12:28 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:12:28 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:12:28 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:12:28 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:12:28 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:12:28 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:12:28 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:12:28 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:12:28 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:12:28 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:12:28 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:28 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:29 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:12:29 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:12:29 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:12:29 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:12:30 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:12:34 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:12:34 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:12:34 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:12:34 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:12:34 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:12:34 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:12:34 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:12:34 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:12:34 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:12:34 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:12:34 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:12:34 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:12:34 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:12:34 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:12:34 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:12:34 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:12:34 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:12:34 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:35 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:35 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:12:35 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:12:35 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:12:35 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:12:36 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.
+2024-01-06 19:12:40 - INFO    :: MainThread : Starting Tautulli v2.13.4
+2024-01-06 19:12:40 - INFO    :: MainThread : [Docker] Linux 5.15.0-91-generic (#101-Ubuntu SMP Tue Nov 14 13:30:08 UTC 2023 - Alpine Linux 3.19.0)
+2024-01-06 19:12:40 - INFO    :: MainThread : Etc/UTC (UTC+0000)
+2024-01-06 19:12:40 - INFO    :: MainThread : Language None / Encoding UTF-8
+2024-01-06 19:12:40 - INFO    :: MainThread : Python 3.11.6 (main, Oct 13 2023, 15:52:55) [GCC 13.1.1 20230722]
+2024-01-06 19:12:40 - INFO    :: MainThread : SQLite 3.44.2
+2024-01-06 19:12:40 - INFO    :: MainThread : Program Dir: /app/tautulli
+2024-01-06 19:12:40 - INFO    :: MainThread : Config File: /config/config.ini
+2024-01-06 19:12:40 - INFO    :: MainThread : Database File: /config/tautulli.db
+2024-01-06 19:12:40 - INFO    :: MainThread : Checking if the database upgrades are required...
+2024-01-06 19:12:40 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2024-01-06 19:12:40 - DEBUG   :: MainThread : Using cached GitHub version data
+2024-01-06 19:12:40 - DEBUG   :: MainThread : Latest version is d019efcf911b4806618761c2da48bab7d04031ec
+2024-01-06 19:12:40 - DEBUG   :: MainThread : Using cached GitHub commits data
+2024-01-06 19:12:40 - DEBUG   :: MainThread : In total, 0 commits behind
+2024-01-06 19:12:40 - INFO    :: MainThread : Tautulli is up to date
+2024-01-06 19:12:40 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2024-01-06 19:12:40 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:41 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2024-01-06 19:12:41 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2024-01-06 19:12:41 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2024-01-06 19:12:41 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2024-01-06 19:12:41 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2024-01-06 19:12:42 - ERROR   :: MainThread : Tautulli WebStart :: Failed to start Tautulli: Port 8181 not free on 0.0.0.0.

@@ -1,0 +1,17 @@
+<Config>
+  <BindAddress>*</BindAddress>
+  <Port>9696</Port>
+  <SslPort>6969</SslPort>
+  <EnableSsl>True</EnableSsl>
+  <LaunchBrowser>True</LaunchBrowser>
+  <ApiKey>4a8a9c0ef4e54239a61a0bc72f485a74</ApiKey>
+  <AuthenticationMethod>Basic</AuthenticationMethod>
+  <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
+  <Branch>master</Branch>
+  <LogLevel>info</LogLevel>
+  <SslCertPath>/certs/server.pfx</SslCertPath>
+  <SslCertPassword>0123456789</SslCertPassword>
+  <UrlBase>/prowlarr</UrlBase>
+  <InstanceName>Prowlarr</InstanceName>
+  <UpdateMechanism>Docker</UpdateMechanism>
+</Config>
