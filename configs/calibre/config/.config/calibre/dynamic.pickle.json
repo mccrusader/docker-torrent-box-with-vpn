@@ -1,9 +1,7 @@
 {
+  "choose_path_srv_opts_ssl_certfile": "/config/ssl",
+  "choose_path_srv_opts_ssl_keyfile": "/config/ssl",
   "database location dialog": "/ebooks",
-  "notified-version-updates": {
-    "__class__": "set",
-    "__value__": ["6.17", "6.16"]
-  },
-  "welcome_wizard_device": "kobo",
+  "welcome_wizard_device": "default",
   "welcome_wizard_was_run": true
 }

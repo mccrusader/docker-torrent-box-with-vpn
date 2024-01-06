@@ -1,3 +1,3 @@
 json:{
-  "output_profile": "kobo"
+  "output_profile": "generic_eink"
 }

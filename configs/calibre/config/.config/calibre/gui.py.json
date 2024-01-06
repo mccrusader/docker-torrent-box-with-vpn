@@ -3,7 +3,7 @@
   "LRF_ebook_viewer_options": null,
   "asked_library_thing_password": false,
   "auto_download_cover": false,
-  "autolaunch_server": false,
+  "autolaunch_server": true,
   "column_map": [
     "title",
     "ondevice",
