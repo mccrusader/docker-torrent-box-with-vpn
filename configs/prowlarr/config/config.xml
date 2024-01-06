@@ -12,7 +12,7 @@
   <AuthenticationRequired>Enabled</AuthenticationRequired>
   <Branch>master</Branch>
   <SslCertPath>/certs/server.pfx</SslCertPath>
-  <SslCertPassword>976620</SslCertPassword>
+  <SslCertPassword>0123456789</SslCertPassword>
   <InstanceName>Prowlarr</InstanceName>
   <AnalyticsEnabled>False</AnalyticsEnabled>
 </Config>

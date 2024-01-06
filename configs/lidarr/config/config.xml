@@ -11,7 +11,7 @@
   <SslPort>6868</SslPort>
   <LaunchBrowser>True</LaunchBrowser>
   <Branch>master</Branch>
-  <SslCertPassword>976620</SslCertPassword>
+  <SslCertPassword>0123456789</SslCertPassword>
   <AnalyticsEnabled>False</AnalyticsEnabled>
   <InstanceName>Lidarr</InstanceName>
 </Config>
