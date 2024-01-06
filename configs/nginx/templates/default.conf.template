@@ -116,7 +116,7 @@ server {
     proxy_http_version  1.1;
   }
 
-  location /sabnzbd/ {
+  location /nzbget/ {
     # proxy_pass        http://127.0.0.1:${NZBGET_HTTP_PORT};
     proxy_pass        https://127.0.0.1:${NZBGET_HTTPS_PORT};
     proxy_redirect    off;
@@ -207,3 +207,16 @@ server {
     proxy_http_version  1.1;
   }
 }
+
+  location /sabnzbd/ {
+    # proxy_pass        http://127.0.0.1:${SABNZBD_HTTP_PORT};
+    proxy_pass        https://127.0.0.1:${SABNZBD_HTTPS_PORT};
+    proxy_redirect    off;
+    proxy_set_header  Host $host;
+    proxy_set_header  X-Real-IP $remote_addr;
+    proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header  X-Forwarded-Host $server_name;
+    proxy_set_header  Upgrade $http_upgrade;
+    proxy_set_header  Connection $http_connection;
+    proxy_http_version  1.1;
+  }
