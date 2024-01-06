@@ -8,30 +8,11 @@
   <EnableSsl>True</EnableSsl>
   <LaunchBrowser>True</LaunchBrowser>
   <ApiKey>5f042273666c49fd948a114b52de7d25</ApiKey>
-  <AuthenticationMethod>Forms</AuthenticationMethod>
+  <AuthenticationMethod>Basic</AuthenticationMethod>
   <Branch>master</Branch>
   <SslCertPath>/certs/server.pfx</SslCertPath>
   <SslCertPassword>0123456789</SslCertPassword>
   <AnalyticsEnabled>False</AnalyticsEnabled>
   <InstanceName>Radarr</InstanceName>
   <AuthenticationRequired>Enabled</AuthenticationRequired>
-</Config>
-
-
-<Config>
-  <BindAddress>*</BindAddress>
-  <Port>7878</Port>
-  <SslPort>7879</SslPort>
-  <EnableSsl>False</EnableSsl>
-  <LaunchBrowser>True</LaunchBrowser>
-  <ApiKey>ba428ce985bd460f9bd97c38f65fe78c</ApiKey>
-  <AuthenticationMethod>None</AuthenticationMethod>
-  <AuthenticationRequired>Enabled</AuthenticationRequired>
-  <Branch>master</Branch>
-  <LogLevel>info</LogLevel>
-  <SslCertPath></SslCertPath>
-  <SslCertPassword></SslCertPassword>
-  <UrlBase></UrlBase>
-  <InstanceName>Radarr</InstanceName>
-  <UpdateMechanism>Docker</UpdateMechanism>
 </Config>
