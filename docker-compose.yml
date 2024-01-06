@@ -204,8 +204,8 @@ services:
       - ${MYLAR_HTTPS_PORT}:${MYLAR_HTTPS_PORT} # mylar-https
       - ${NGINX_HTTP_PORT}:${NGINX_HTTP_PORT} # nginx-http
       - ${NGINX_HTTPS_PORT}:${NGINX_HTTPS_PORT} # nginx-https
-      - ${NZBGET_HTTP_PORT}:${NZBGET_HTTP_PORT} # nzbget-http
-      - ${NZBGET_HTTPS_PORT}:${NZBGET_HTTPS_PORT} # nzbget-https
+      - ${SABNZBD_HTTP_PORT}:${SABNZBD_HTTP_PORT} # sabnzbd-http
+      - ${SABNZBD_HTTPS_PORT}:${SABNZBD_HTTPS_PORT} # sabnzbd-https
       - ${NZBHYDRA2_HTTP_PORT}:${NZBHYDRA2_HTTP_PORT} # nzbhydra2-http
       - ${NZBHYDRA2_HTTPS_PORT}:${NZBHYDRA2_HTTPS_PORT} # nzbhydra2-https
       - ${PROWLARR_HTTP_PORT}:${PROWLARR_HTTP_PORT} # prowlarr-http
@@ -221,21 +221,21 @@ services:
       - ${SONARR_HTTP_PORT}:${SONARR_HTTP_PORT} # sonarr-http
       - ${SONARR_HTTPS_PORT}:${SONARR_HTTPS_PORT} # sonarr-https
 
-  nzbget:
-    image: linuxserver/nzbget:${NZBGET_VERSION}
-    container_name: nzbget
+  sabnzbd:
+    image: lscr.io/linuxserver/sabnzbd:${SABNZBD_VERSION}
+    container_name: sabnzbd
     depends_on: ["${VPN_PROVIDER}"]
-    profiles: ["${NZBGET_PROFILE}"]
+    profiles: ["${SABNZBD_PROFILE}"]
     network_mode: service:${VPN_PROVIDER}
     sysctls: ["net.ipv6.conf.all.disable_ipv6=1"]
     restart: unless-stopped
-    env_file: [".env", "${CONFIG_FOLDER}/nzbget/.env"]
+    env_file: [".env", "${CONFIG_FOLDER}/sabnzbd/.env"]
     environment:
       ["PGID=${GID}", "PUID=${UID}", "UMASK=${UMASK}", "TZ=${TIMEZONE}"]
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - ${CERTIFICATES_FOLDER}:/certs:ro
-      - ${CONFIG_FOLDER}/nzbget/config:/config:z
+      - ${CONFIG_FOLDER}/sabnzbd/config:/config:z
       - ${USENET_BLACKHOLE_FOLDER}:/blackhole:z
       - ${USENET_DOWNLOADS_FOLDER}:/downloads:z
       - ${MEDIA_FOLDER}/AudioBooks:/audiobooks:z
@@ -327,8 +327,8 @@ services:
       - ${MYLAR_HTTPS_PORT}:${MYLAR_HTTPS_PORT} # mylar-https
       - ${NGINX_HTTP_PORT}:${NGINX_HTTP_PORT} # nginx-http
       - ${NGINX_HTTPS_PORT}:${NGINX_HTTPS_PORT} # nginx-https
-      - ${NZBGET_HTTP_PORT}:${NZBGET_HTTP_PORT} # nzbget-http
-      - ${NZBGET_HTTPS_PORT}:${NZBGET_HTTPS_PORT} # nzbget-https
+      - ${SABNZBD_HTTP_PORT}:${SABNZBD_HTTP_PORT} # sabnzbd-http
+      - ${SABNZBD_HTTPS_PORT}:${SABNZBD_HTTPS_PORT} # sabnzbd-https
       - ${NZBHYDRA2_HTTP_PORT}:${NZBHYDRA2_HTTP_PORT} # nzbhydra2-http
       - ${NZBHYDRA2_HTTPS_PORT}:${NZBHYDRA2_HTTPS_PORT} # nzbhydra2-https
       - ${PROWLARR_HTTP_PORT}:${PROWLARR_HTTP_PORT} # prowlarr-http

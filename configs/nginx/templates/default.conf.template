@@ -116,7 +116,7 @@ server {
     proxy_http_version  1.1;
   }
 
-  location /nzbget/ {
+  location /sabnzbd/ {
     # proxy_pass        http://127.0.0.1:${NZBGET_HTTP_PORT};
     proxy_pass        https://127.0.0.1:${NZBGET_HTTPS_PORT};
     proxy_redirect    off;
