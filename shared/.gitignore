@@ -3,8 +3,8 @@
 
 # Except .gitignore and dotenv file
 !.gitignore
-!.env
 
 # config file
-!config/
-config/*
+!Recycle/*
+!Torrent/*/*/*/
+!Usenet/*/*/*/
